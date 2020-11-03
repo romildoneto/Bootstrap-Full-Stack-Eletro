@@ -1,0 +1,305 @@
+/* estilização pagina inicial a */
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+
+.menu{
+    background-color:red;
+    height: 60px;
+    padding-top: 25px;   
+    color:white; 
+    font-size: 20px;
+    text-decoration: none;font-weight: bold;
+}
+
+.menu a{
+    color:white; 
+    margin-left: 40px;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 140px;
+    padding-left: 20px;
+    text-decoration: none;font-weight: bold;
+}
+
+input{
+    border-radius: 8px 8px 8px 8px;
+    border: 10px;
+    width: 320px; 
+    height: 30px;
+    margin-left: 3%;
+
+}
+
+button{
+        color:blue;
+        font-weight: bold;
+        font-size: 20px;
+        padding-right: 20px;
+        margin-left: 5%;
+        border-radius: 8px 8px 8px 8px;
+        margin-top: 5px;
+        width: 150px;
+    }
+   
+.entrada{
+    color:rgb(58, 14, 14);
+    font-size: 20px;
+    margin-left: 2%;
+    color: green;
+}
+
+.conjuntoEletro{
+     margin-top: 1px;
+     margin-left: 400px;
+     background-image: 10px;
+         
+}
+#mensagem{
+    color: purple;
+    padding: 30px;
+    font-size: 20px;
+}
+.rodape{
+    text-align: center;
+    color:purple;
+    font-size: 3px;                                         /*       estrutura do rodape             */
+    font-weight: bold;
+    padding: 1px;
+    margin-top: 1px;  
+    margin-bottom:3px;
+    height: 3px;
+} 
+.fcartao{
+    color:red;
+}
+
+    /* estilização pagina nossos produtos */
+    
+.produtos{
+    margin-right: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width:1300px;
+    margin-left: 13%;
+    height: 450px;
+    margin-bottom: 3%;  
+}
+
+.cabecalhoproduto{
+                                  /* titulo produto */
+    margin-left: 25px;   
+    margin-top: 3%;          
+    font-weight: bold;
+    text-decoration: underline; 
+}
+.categorias{
+    color:purple;                   /* nome categoria dos produtos */
+    font-size: 20px;
+    margin-top: 1%;              
+    margin-left: 5%px;  
+    height: 30px;
+    padding: 5px;
+}
+h3{
+    color:purple;
+    margin-left: 4%;
+}
+
+li{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5%;
+   
+    
+}
+
+.box_produto{
+    display:inline-block;
+    width: 280px;                   /* preços e descrição dos pordutos */
+    margin-bottom: 2%;
+    margin: 10px;
+}
+
+.descrição{
+    font-size: 20px;
+    
+
+}
+
+.preço{
+   color:red;   
+   font-size: 25px;  
+   font-weight: bolder;                              
+}
+/* estilização pagina endereço das lojas */
+
+#tituloh2{
+    color: blue;
+    text-decoration: underline;                /* titulo na pagina */
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 8%;
+  
+}
+
+#nomeestados{
+      color:red;
+      font-weight: bold;                     /* nome de cada estado */
+      font-size: 25px;  
+      margin-left: 1%;
+}
+
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+
+   
+}
+ 
+.inicioendereco{
+    width:150%;
+    margin-top: 5px ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px; 
+}
+
+.enderecoloja{
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    
+    
+}
+
+/* estilização da pagina fale conosco */
+    
+.fconosco{
+    color: blue;
+    font-size: 30px;
+    margin-left:3%;
+    margin-top: 1%;
+    text-decoration: underline;
+}
+
+.elemento{
+    width:100%;
+    text-align: center;                           
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:1%;
+    font-size: 20%;
+}
+
+.elementoEmail{
+    display: inline-block;
+    width: 40%;
+    margin: 10px 5px 5px 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.elementoContato{
+    display: inline-block;
+    width: 40%;
+    margin: 10px 5px 5px 50px;
+    text-align: center;
+    text-decoration: underline;  
+    color: green;
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+
+
+  
+.formname{
+    color:gray;
+    font-size: 20px;
+    margin-left: 3%;
+
+   
+}
+
+.inputname{
+    color:black;
+background-color:whitesmoke;
+width: 400px;
+height: 40px;
+margin: 1%;
+cursor: pointer;
+border: 1px solid red;
+padding-left: 2%;
+margin-left: 3%;
+}
+
+.inputmensagem{
+    color:black;
+background-color:whitesmoke;
+width: 400px;
+height: 40px;
+margin: 1%;
+cursor: pointer;
+border: 1px solid red;
+padding-left: 2%;
+margin-left: 3%;
+
+}
+.inputentrada{
+    color:white;
+    background-color:black;
+    width: 430px;
+    height: 40px;
+    margin: 0%;
+    border: 1px solid red;
+    cursor: pointer;
+    margin-left: 3%;
+}
+
+
+
+#tituloPedido{
+    margin-left: 3%;
+    color:red; 
+    
+}
+
+.inputPedido{
+    color: gray;
+    width: 400px;
+    font-size: 20px;
+    margin-left: 3%;
+    display: block; 
+}
+
+.inputform {
+color:black;
+background-color:whitesmoke;
+width: 400px;
+height: 40px;
+margin: 0%;
+cursor: pointer;
+border: 1px solid red;
+padding-left: 1%;
+
+}
+
+.inputEnviar{
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 40px;
+    margin: 0%;  
+    padding-left: 1%;
+    margin-left: 1%;
+   
+}
+
+
+
