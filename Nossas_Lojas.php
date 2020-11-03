@@ -72,7 +72,7 @@ include_once("menu.html");
   </footer>
 
 
-  <script src="./javaScript/funcoes.js"></script>
+  <script src="./teste.js"></script>
 </body>
 
 

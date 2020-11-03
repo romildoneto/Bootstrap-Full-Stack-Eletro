@@ -82,7 +82,7 @@ include_once("menu.html");
         <img src="imagens/imagem3.png" alt="imagem3">
         <p>&copy;Recode</p>
     </footer>
-    <script src="./javaScript/funcoes.js"></script>
+    <script src="./teste.js"></script>
 </body>
 
 

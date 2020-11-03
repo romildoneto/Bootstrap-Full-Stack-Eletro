@@ -1,14 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
 create database fseletro;
 
 use fseletro;

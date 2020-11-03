@@ -32,7 +32,7 @@ include_once("menu.html");
         <img id="cartcredito" src="imagens/imagem3.png" alt="imagem3" onclick="ftcredito(this)"><br>
         <p>&copy;Recode</p>
     </footer>
-    <script src="./javaScript/funcoes.js"></script>
+    <script src="./teste.js"></script>
 </body>
 
 
