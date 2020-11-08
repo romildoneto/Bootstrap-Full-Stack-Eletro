@@ -45,45 +45,53 @@
 
     <br> <br>
 
-
- <div class="row ml-5">
-    <div class="col"><img src="./imagens/email.jpeg" width="50px"></div>
-    <div class="col"><img src="./imagens/zap2." width="50px"></div>
+<div class="container">
+ <div class="row">
+    <div class="col-6"><img src="./imagens/email.jpeg" width="50px"></div>
+    <div class="col-6"><img src="./imagens/zap2." width="50px"></div>
   </div>
+ 
 
- <div class="row ml-5">
-    <div class="col" onmouseover="changecolor(this)" onmouseout="changecolor(this)">contato@fullstackeletro.com</div>
-    <div class="col" onmouseover="changecolor(this)" onmouseout="changecolor(this)">(11)99999-9999</div>
+ <div class="row">
+    <div class="col-6" onmouseover="changecolor(this)" onmouseout="changecolor(this)">contato@fullstackeletro.com</div>
+    <div class="col-6" onmouseover="changecolor(this)" onmouseout="changecolor(this)">(11)99999-9999</div>
  </div>
 
-        <br> <br>
+ <br> <br>
+
+        <div class="container">
+<div class="row">
+<div class="col-6">
 
 
- <form method ="POST" action ="">
-    
- <form method="post" action="">
-  <div class="form-group m-4">
-    <label for="nome">Nome</label>
-    <input type="text" name="nome" class="form-control w-50 p-3" id="nome" placeholder="Digite seu nome">
+<form method ="POST" action ="">
+
+  <div class="form-group">
+     <label for="nome" onmouseover="alterarcor(this)" onmouseout="alterarcor(this)">Nome</label>
+     <input class="form-control" type="text" name="nome"  id="nome" placeholder="Digite seu nome">
   </div>
 
+  <div class="form-group">
+     <label for="mensagem" onmouseover="alterarcor(this)" onmouseout="alterarcor(this)">Mensagem</label>
+     <input class="form-control" type="text" name="Mensagem"  id="nome" placeholder="Digite seu nome">
+  </div>
 
-  <div class="form-group m-4">
-    <label for="msg">Mensagem</label>
-    <input type="text" name="mensagem" class="form-control w-50 p-3" id="mensagem" placeholder="Digite sua mensagem...">
-    </div>
-    <button type="submit" class="btn btn-danger  m-4">Enviar</button>
+  <div class="form-group text-center">
+      <buntton type="submit" name="submit" class="btn btn-primary"> Enviar</button>
  </form>
+</div>
+</div>
 
-    <br>
+    <br><br>
 
-    <div class="container-center" style="text-align:center;">
-      <footer>
-         <p class="text-danger" onmouseover="changecolor(this)" onmouseout="changecolor(this)"><b>Formas de pagamento:</b></p>
-         <img id="cartcredito" src="imagens/imagem3.png" alt="imagem3" onclick="ftcredito(this)"><br>
-         <p>&copy;Recode</p>
-       </footer>
-    </div>
+    <div class="container-fluid">
+    <footer class="rodape text-align:center">
+       <div class="jumbotron">
+        <p onmouseover="alterarcor(this)" onmouseout="alterarcor(this)" class="fcartao"><b>Formas de pagamento:</b></p>
+        <img src="imagens/imagem3.png" alt="imagem3">
+        <p onmouseover="alterarcor(this)" onmouseout="alterarcor(this)">&copy;Recode</p>
+        </div>
+    </footer>
    
    
     <script src="./teste.js"></script>

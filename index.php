@@ -20,21 +20,21 @@ include_once("menu.html");
     <br> <br><br>
  
     <div class="container-fluid">
-        <div class="jumbotron bg-gray">
         <h2 class="display-4"onmouseover="changecolor(this)">Seja bem vindo(a)</h2>
-        <p class="lead"> Aqui em nossa loja programador tem desconto!</p>
+        <p class="lead" onmouseover="changecolor(this)"> Aqui em nossa loja programador tem desconto!</p>
     
     </div>
            
            <br> <br><br>
 
-       
+   
+   <div class="jumbotron bg-gray">
    <div class="container-center" style="text-align:center;">
     <footer>
         <p class="text-pramary" onmouseover="changecolor(this)" onmouseout="changecolor(this)"><b>Formas de pagamento:</b></p>
       
         <img id="cartcredito" src="imagens/imagem3.png" alt="imagem3" onclick="ftcredito(this)"><br>
-        <p>&copy;Recode</p>
+        <p onmouseover="changecolor(this)">&copy;Recode</p>
     </footer>
 </div>
 

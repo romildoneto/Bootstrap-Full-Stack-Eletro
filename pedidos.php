@@ -49,44 +49,63 @@ include_once("menu.html");
     <!-- Inicio do Menu-->
     <br> 
 
-<form method ='POST' name = 'pedidos' action = "">
-<form method="post" action="">
 
-    <h1 id="tituloPedido">Faça seu pedido já:</h1>
-        <div class="inputPedido">
-        <h4 onmouseover="alterarcor(this)" onmouseout="alterarcor(this)"> Meu nome:</h4>
-        <input type="text" name= "nomeCliente"class="form-control w-130 p-3" placeholder="digite seu nome" class="inputform" > <br>
-        
-        <h4 onmouseover="alterarcor(this)" onmouseout="alterarcor(this)"> Endereço:</h4>
-        <input type="text" name= "endereco" class="form-control w-130 p-3"placeholder="digite seu endereço" class="inputform" > <br>
-       
-        <h4 onmouseover="alterarcor(this)" onmouseout="alterarcor(this)"> Telefone:</h4>
-        <input type="text" name= "telefone"class="form-control w-130 p-3" placeholder="Digite seu telefone" class=" inputform"> <br>
-        
-        <h4 onmouseover="alterarcor(this)" onmouseout="alterarcor(this)"> Produto:</h4>
-        <input type="text" name= "nomeProduto" class="form-control w-130 p-3"placeholder="digite seu produto" class="inputform" > <br>
-        
-        <h4 onmouseover="alterarcor(this)" onmouseout="alterarcor(this)"> R$ Inicial:</h4>
-        <input type="text" name= "valorUnitario"class="form-control w-130 p-3" placeholder="digite o valor" class="inputform" > <br>
-       
-        <h4 onmouseover="alterarcor(this)" onmouseout="alterarcor(this)">Quantidade:</h4>
-        <input type="text" name="quantidade" class="form-control w-130 p-3"placeholder="digite a quantidade" class="inputform" > <br>
-       
-        <h4 onmouseover="alterarcor(this)" onmouseout="alterar]]cor(this)">R$ Total:</h4>
-        <input type="text" name="valorTotal" number="numero"class="form-control w-130 p-3" placeholder="digite valor total" class="inputform"> <br>
-       
-        <input type="submit" name="submit" value="ENVIAR!" class="btn btn-danger m-0  form-control w-130 p-3 text-align:center"  class=" inputEnviar">
- </form>
- 
-<br><br>
+
+<div class="container">
+<div class="row">
+<div class="col-6">
+
+    <h1 id="tituloPedido">Faça seu pedido</h1>
+    <div class="inputPedido">
+
+    <form method ='POST' name = 'pedidos' action = "">
+    <form method="post" action="">
+        <div> 
+           <label for="Nome" onmouseover="alterarcor(this)" onmouseout="alterarcor(this)">Nome</label>
+           <input class="form-control"type="tesxt" name="nomeCliente"id="Nome" placeholder="digite seu nome" class="inputform" > <br>
+        </div> 
+
+         <div>
+           <label for="telefone" onmouseover="alterarcor(this)" onmouseout="alterarcor(this)">Telefone</label>
+           <input class="form-control"type="tesxt" name="telefone"id="Nome" placeholder="digite seu telefone" class="inputform" > <br>
+        </div> 
+
+         <div>
+           <label for="produto" onmouseover="alterarcor(this)" onmouseout="alterarcor(this)">Produto</label>
+           <input class="form-control"type="tesxt" name="nomeCliente"id="produto" placeholder="digite seu produto" class="inputform" > <br>
+        </div> 
+
+        <div>
+           <label for="R$ inicial" onmouseover="alterarcor(this)" onmouseout="alterarcor(this)">R$ inicial</label>
+           <input class="form-control"type="tesxt" name="valorUnitario"id="Nome" placeholder="digite valor Unitário" class="inputform" > <br>
+        </div>
+
+        <div>
+           <label for="Quantidade" onmouseover="alterarcor(this)" onmouseout="alterarcor(this)">Quantitade</label>
+           <input class="form-control"type="tesxt" name="quantidade"id="Nome" placeholder="digite a quantidade" class="inputform" > <br>
+        </div>
+
+        <div>
+           <label for="R$ Total" onmouseover="alterarcor(this)" onmouseout="alterarcor(this)">R$ Total</label>
+           <input class="form-control"type="tesxt" name="valorTotal"id="Nome" placeholder="digite valor total" class="inputform" > <br>
+        </div>
+       <div class="form-group text-center">
+           <buntton type="submit" name="submit" class="btn btn-primary"> Enviar</button>
+        </div>
+    </div>
+</form>
+</div>
+</div>
+ </div> 
+
+
     <footer class="rodape text-align:center">
        <div class="jumbotron">
         <p onmouseover="alterarcor(this)" onmouseout="alterarcor(this)" class="fcartao"><b>Formas de pagamento:</b></p>
         <img src="imagens/imagem3.png" alt="imagem3">
-        <p>&copy;Recode</p>
+        <p onmouseover="alterarcor(this)" onmouseout="alterarcor(this)">&copy;Recode</p>
         </div>
     </footer>
-   
    
    
     <script src="./teste.js"></script>

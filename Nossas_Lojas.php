@@ -25,17 +25,17 @@ include_once("menu.html");
   <br> <br>
 
 
-  <table class="table bg-light"style="text-align:center;">
+  <table class="table bg-info"style="text-align:center;">
         <thead>
             <tr>
-                <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">Rio de Janeiro</th>
-                <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">São Paulo</th>
-                <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">Santa Catarina</th>
+                <th onmouseover="changecolor(this)" onmouseout="changecolor(this)" style="font-size:20px;" >Rio de Janeiro</th>
+                <th onmouseover="changecolor(this)" onmouseout="changecolor(this)" style="font-size:20px;"> São Paulo</th>
+                <th onmouseover="changecolor(this)" onmouseout="changecolor(this)" style="font-size:20px;">Santa Catarina</th>
             </tr>
             <tr>
                 <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">Faria lima, 100</th>
                 <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">Avenida Paulista, 985</th>
-                <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">Rua da varzea, 46 &Aacute;vila, 370</th>
+                <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">Rua antonio furtado, 46 &Aacute;vila, 370</th>
             </tr>
             <tr>
                 <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">10 &ordm; andar</th>
@@ -43,15 +43,15 @@ include_once("menu.html");
                 <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">Vila Mariana</th>
             </tr>
             <tr>
-            <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">Centro</th>
-            <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">Jardins</th>
-            <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">Zona leste</th>
+                <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">Centro</th>
+                <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">Jardins</th>
+                <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">Zona leste</th>
             </tr>
             <tr>
                 <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">(21) 1111-1111</th>
                 <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">(21) 2222-2222</th>
                 <th onmouseover="changecolor(this)" onmouseout="changecolor(this)">(47) 3333-3333</th>
-                <th></th>
+                </th>
             </tr>
         </thead>
       </table>

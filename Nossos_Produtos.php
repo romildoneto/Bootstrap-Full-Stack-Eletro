@@ -33,13 +33,14 @@ include_once("menu.html");
 ?>
 
 <header>
-  <div class="container-fluir">
-  <h1 class="cabecalhoproduto">Produto</h1>
-</header>
+   <div class="container">
+   </header>
 
+<h1 class="cabecalhoproduto" style="margin-left:40px; padding:3px;" onmouseover="changecolor(this)" onmouseout="changecolor(this)">Produto</h1>
 <div Class="categorias">
-  <h3 style="font-size:20px">Categoria </h3>
-<ul>
+  <h3 style="font-size:20px" onmouseover="changecolor(this)" onmouseout="changecolor(this)">Categoria </h3>
+ 
+<ul style="margin-left:0px;">
     <li onmouseover="changecolor(this)" onmouseout="changecolor(this)" onclick="exibir_todos()">todos (12)</li>
     <li onmouseover="changecolor(this)" onmouseout="changecolor(this)" onclick="exibir_categoria('geladeira')"> Geladeira (3)</li>
     <li onmouseover="changecolor(this)" onmouseout="changecolor(this)" onclick="exibir_categoria('fogao')">Fogões (2)</li>
@@ -49,8 +50,6 @@ include_once("menu.html");
  </ul>
 </div>
 </div>
-
-
 
 
 <div class="produtos">
@@ -69,7 +68,9 @@ include_once("menu.html");
      <p class="descrição"><strike>R$ <?php echo $rows["precoinicial"]; ?></strike></p>
      <p class="preço">R$ <?php echo $rows["precofinal"]; ?></p>
   </div>
-   
+  
+  
+ 
 <?php
   }
 }else{
@@ -78,13 +79,14 @@ include_once("menu.html");
 ?>
 
 <br><br><br><br><br>
-<footer class="rodape">
-  <p onmouseover="changecolor(this)" onmouseout="changecolor(this)" class="fcartao"><b>Formas de pagamento:</b></p>
-  <br><br><br><br>
 
-  <img src="imagens/imagem3.png" alt="imagem3"><br>
-  <p>&copy;Recode</p>
-</footer>
+<footer class="rodape text-align:center">
+    <div class="jumbotron">
+        <p onmouseover="alterarcor(this)" onmouseout="alterarcor(this)" class="fcartao"><b>Formas de pagamento:</b></p>
+        <img src="imagens/imagem3.png" alt="imagem3">
+        <p onmouseover="alterarcor(this)" onmouseout="alterarcor(this)">&copy;Recode</p>
+    </div>
+  </footer>
   
   
     <script src="./teste.js"></script>
